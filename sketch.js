@@ -22,7 +22,7 @@ bt2.position(280, 590);
 
 bt1.mousePressed( ()=>{
  let izq = extractor.infer(video)
- knn.addExample(izq,"Derecha")
+ knn.addExample(izq,"izquierda")
  
 })
 
