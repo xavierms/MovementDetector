@@ -13,12 +13,10 @@ video = createCapture(VIDEO).hide()
 let bt1 = createButton('Izquierda')
 let bt2 = createButton('Derecha')
 
-
-
 background(0);
 
-bt1.position(590, 590);
-bt2.position(280, 590);
+bt1.position(790, 590);
+bt2.position(1045, 590);
 
 bt1.mousePressed( ()=>{
  let izq = extractor.infer(video)

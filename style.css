@@ -3,7 +3,8 @@ html, body {
   padding: 0;
   background:linear-gradient(120deg, #fd483b 59%, #ff844b  60%); ;
 }
-canvas {
+canvas,h1 {
+  text-align: center;
   padding-left: 0;
     padding-right: 0;    
     margin-left: auto;
@@ -11,9 +12,7 @@ canvas {
     display: block;
     width: 800px;
 }
-h1{
-  text-align: center;
-}
+
 img{
   width: 100px;
   height: 100px;
